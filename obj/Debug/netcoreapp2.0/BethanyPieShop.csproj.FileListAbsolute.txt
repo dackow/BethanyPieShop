@@ -1,0 +1,10 @@
+d:\VSCode\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.deps.json
+d:\VSCode\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.runtimeconfig.json
+d:\VSCode\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.runtimeconfig.dev.json
+d:\VSCode\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.dll
+d:\VSCode\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.pdb
+d:\VSCode\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.csproj.CoreCompileInputs.cache
+d:\VSCode\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.AssemblyInfoInputs.cache
+d:\VSCode\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.AssemblyInfo.cs
+d:\VSCode\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.dll
+d:\VSCode\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.pdb
