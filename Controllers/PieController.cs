@@ -22,7 +22,7 @@ namespace BethanyPieShop.Controllers
         public ViewResult Index()
         {
             ViewBag.Message = "Welcome to my great shop";
-            return View();
+            return View(_pieRepository.Pies);
         }
 
     }

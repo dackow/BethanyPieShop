@@ -8,3 +8,13 @@ d:\VSCode\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.AssemblyInfoInpu
 d:\VSCode\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.AssemblyInfo.cs
 d:\VSCode\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.dll
 d:\VSCode\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.pdb
+c:\Users\ludwi\Development\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.deps.json
+c:\Users\ludwi\Development\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.runtimeconfig.json
+c:\Users\ludwi\Development\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.runtimeconfig.dev.json
+c:\Users\ludwi\Development\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.dll
+c:\Users\ludwi\Development\BethanyPieShop\bin\Debug\netcoreapp2.0\BethanyPieShop.pdb
+c:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.csproj.CoreCompileInputs.cache
+c:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.AssemblyInfoInputs.cache
+c:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.AssemblyInfo.cs
+c:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.dll
+c:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.pdb

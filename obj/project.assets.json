@@ -13207,6 +13207,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.AspNetCore.Razor.Tools >= 1.0.0-preview2-final",
+      "Microsoft.AspNetCore.Routing >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -13263,6 +13264,10 @@
           "Microsoft.AspNetCore.Razor.Tools": {
             "target": "Package",
             "version": "1.0.0-preview2-final"
+          },
+          "Microsoft.AspNetCore.Routing": {
+            "target": "Package",
+            "version": "2.0.0"
           }
         },
         "imports": [

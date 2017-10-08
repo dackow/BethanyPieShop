@@ -18,6 +18,7 @@ namespace BethanyPieShop
         {
             services.AddTransient<ICategoryRepository, MockCategoryRepository>();
             services.AddTransient<IPieRepository, MockPieRepository>();
+            services.AddRouting();
             services.AddMvc();
         }
 
@@ -29,10 +30,15 @@ namespace BethanyPieShop
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) =>
+            app.UseMvc(routes =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                routes.MapRoute("default", "{controller=Pie}/{action=Index}/{id?}");
             });
+
+            // app.Run(async (context) =>
+            // {
+            //     await context.Response.WriteAsync("Hello World!");
+            // });
         }
     }
 }
