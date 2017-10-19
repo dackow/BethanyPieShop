@@ -18,6 +18,10 @@ namespace BethanyPieShop
         {
             services.AddTransient<ICategoryRepository, MockCategoryRepository>();
             services.AddTransient<IPieRepository, MockPieRepository>();
+            // services.UseDefaultFiles();
+            // services.UseStaticFiles();
+//             app.UseDefaultFiles();
+// app.UseStaticFiles();
             services.AddRouting();
             services.AddMvc();
         }
@@ -25,6 +29,7 @@ namespace BethanyPieShop
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseStaticFiles();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
