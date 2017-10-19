@@ -18,3 +18,5 @@ c:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop
 c:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.AssemblyInfo.cs
 c:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.dll
 c:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.pdb
+C:\Users\ludwi\Development\BethanyPieShop\obj\Debug\netcoreapp2.0\BethanyPieShop.csprojResolveAssemblyReference.cache
+C:\Users\ludwi\Development\BethanyPieShop\bin\Debug\netcoreapp2.0\wwwroot\Content\site.css

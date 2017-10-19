@@ -1,23 +1,14 @@
-@model IEnumerable<BethanyPieShop.Models.Pie>
+@model IEnumerable<Pie>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Index</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bethany's pie Shop</title>
     </head>
     <body>
-        <div>
-            @ViewBag.Message
-        </div>
-        <div>
-            @foreach(var pie in Model)
-            {
-                <div>
-                    <h2>@pie.Name</h2>
-                    <h3>@pie.Price.ToString("c")</h3>
-                  <!--  <h4>@pie.Category.CategoryName</h4>-->
-                </div>
-            }
-        </div>
+      <div>Index page</div>
     </body>
 </html>

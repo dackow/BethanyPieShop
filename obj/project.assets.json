@@ -13217,12 +13217,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "c:\\Users\\ludwi\\Development\\BethanyPieShop\\BethanyPieShop.csproj",
+      "projectUniqueName": "C:\\Users\\ludwi\\Development\\BethanyPieShop\\BethanyPieShop.csproj",
       "projectName": "BethanyPieShop",
-      "projectPath": "c:\\Users\\ludwi\\Development\\BethanyPieShop\\BethanyPieShop.csproj",
+      "projectPath": "C:\\Users\\ludwi\\Development\\BethanyPieShop\\BethanyPieShop.csproj",
       "packagesPath": "C:\\Users\\ludwi\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ludwi\\Development\\BethanyPieShop\\obj\\",
+      "outputPath": "C:\\Users\\ludwi\\Development\\BethanyPieShop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13252,6 +13255,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Razor.Tools": {
+            "target": "Package",
+            "version": "1.0.0-preview2-final"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
@@ -13260,10 +13267,6 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
-          },
-          "Microsoft.AspNetCore.Razor.Tools": {
-            "target": "Package",
-            "version": "1.0.0-preview2-final"
           },
           "Microsoft.AspNetCore.Routing": {
             "target": "Package",

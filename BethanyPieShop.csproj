@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Tools" Version="1.0.0-preview2-final" />
     <PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.0.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\Content\site.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

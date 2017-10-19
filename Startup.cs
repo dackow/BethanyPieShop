@@ -32,7 +32,7 @@ namespace BethanyPieShop
 
             app.UseMvc(routes =>
             {
-                routes.MapRoute("default", "{controller=Pie}/{action=Index}/{id?}");
+                routes.MapRoute("default", "{controller=Pie}/{action=List}/{id?}");
             });
 
             // app.Run(async (context) =>

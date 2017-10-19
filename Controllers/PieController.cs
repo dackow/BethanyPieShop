@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using BethanyPieShop.Models;
+using BethanyPieShop.ViewModels;
 
 namespace BethanyPieShop.Controllers
 {
@@ -11,18 +12,21 @@ namespace BethanyPieShop.Controllers
         public PieController(IPieRepository pieRepository, ICategoryRepository categoryRepository)
         {
             _pieRepository = pieRepository;
-            _categoryRepository = categoryRepository;
+            _categoryRepository = categoryRepository; 
         }
 
         public ViewResult List()
         {
-            return View(_pieRepository.Pies);
+            PiesListViewModel piesListViewModel = new PiesListViewModel();
+            piesListViewModel.Pies = _pieRepository.Pies;
+            piesListViewModel.CurrentCategory = "Cheese cakes";
+
+            return View(piesListViewModel);
         }
 
         public ViewResult Index()
         {
-            ViewBag.Message = "Welcome to my great shop";
-            return View(_pieRepository.Pies);
+            return View();
         }
 
     }
