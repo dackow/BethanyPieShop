@@ -25,11 +25,16 @@ namespace BethanyPieShop
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMemoryCache();
+            services.AddSession();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(_configurationRoot.GetConnectionString("DefaultConnection")));
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<IPieRepository, PieRepository>();
             services.AddRouting();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
             services.AddMvc();
+
 
         }
 
@@ -47,6 +52,8 @@ namespace BethanyPieShop
             app.UseStatusCodePages();
             app.UseStaticFiles();
             // var a = app.ApplicationServices.GetService<ICategoryRepository>();
+            app.UseSession();
+
 
             app.UseMvc(routes =>
             {
