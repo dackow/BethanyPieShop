@@ -17,6 +17,8 @@ namespace BethanyPieShop.Models
             AppDbContext ctx = serviceProvider.GetRequiredService<AppDbContext>();
             //AppDbContext ctx =  applicationBuilder.ApplicationServices.GetRequiredService<AppDbContext>();
 
+            bool isCreated = ctx.Database.EnsureCreated();
+
             if(!ctx.Categories.Any())
             {
                 ctx.Categories.AddRange(Categories.Select(x => x.Value));
