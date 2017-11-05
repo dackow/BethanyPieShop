@@ -57,6 +57,9 @@ namespace BethanyPieShop
 
             app.UseMvc(routes =>
             {
+                routes.MapRoute("Contact", "Contact",
+                    defaults: new { controller = "Contact", action = "Index" });
+                //routes.MapRoute("Contacts","{controller=Contact}/{action=Index}");
                 routes.MapRoute("default", "{controller=Pie}/{action=List}/{id?}");
             });
             DbInitializer.Seed(app, serviceProvider);

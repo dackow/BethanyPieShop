@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BethanysPieShop.TagHelpers
+namespace BethanyPieShop.TagHelpers
 {
     public class EmailTagHelper: TagHelper
     {

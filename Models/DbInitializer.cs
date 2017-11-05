@@ -19,17 +19,20 @@ namespace BethanyPieShop.Models
 
             bool isCreated = ctx.Database.EnsureCreated();
 
-            if(!ctx.Categories.Any())
+            if(isCreated)
             {
-                ctx.Categories.AddRange(Categories.Select(x => x.Value));
-            }
+                if(!ctx.Categories.Any())
+                {
+                    ctx.Categories.AddRange(Categories.Select(x => x.Value));
+                }
 
-            if(!ctx.Pies.Any())
-            {
-                ctx.Pies.AddRange(Pies.Select(x => x));
-            }
+                if(!ctx.Pies.Any())
+                {
+                    ctx.Pies.AddRange(Pies.Select(x => x));
+                }  
 
-            ctx.SaveChanges();
+                ctx.SaveChanges();
+            }
         }
 
 
